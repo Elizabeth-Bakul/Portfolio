@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Mulish', sans-serif;
+    color: #333333;
+    background-color: #f5fafe;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+.header{
+    padding-top: 15px;
+    width: 100%;
+}
+  .header-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      padding: 8px;
+      border-radius: 15px;
+  }
+  .student {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .student__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+  .main{
+      margin-top: 45px;
+    width: 100%;
+}
+
+
+  .student__name {
+    padding-left: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+
+  }
+  .main-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  .navbar{
+    width: 27%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .navbar-menu{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+  }
+  .navbar-menu__item:not(:first-child){
+      padding-top: 8px;
+  }
+  .lab{
+      width: 65%;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+  }
+  .lab__item{
+      padding: 15px;
+      background-color: white;
+      border-radius: 15px;
+  }
+  .lab__item:not(:first-child){
+    margin-top: 20px;
+}
+.lab-buttons{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lab-button{
+    min-width: 100px;
+  min-height: 20px;
+  padding: 8px;
+  color: #ffffff;
+  background-color: #0a223d;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 15px;
+}
+.lab__title{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
