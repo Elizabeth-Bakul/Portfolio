@@ -9,6 +9,7 @@
                 <title>ЛР1.2-Бакулина Елизавета</title>
             </head>
             <body>
+            <h4 id="author" title="GossJS" class="student__name">Елизавета Бакулина</h4>
                 <xsl:apply-templates/>
             </body>
         </html>

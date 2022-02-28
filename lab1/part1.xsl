@@ -12,6 +12,7 @@
                         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-svg.js"/>
             </head>
             <body>
+            <h4 id="author" title="GossJS" class="student__name">Елизавета Бакулина</h4>
                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                     <xsl:apply-templates/>
                 </math>
